@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: minha-cidade-em-numeros
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python minha_cidade.py
+    healthCheckPath: /saude

@@ -1,0 +1,1 @@
+# Sem dependências: o minha_cidade.py usa só a biblioteca padrão do Python.
